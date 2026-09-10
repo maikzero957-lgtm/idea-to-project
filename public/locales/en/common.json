@@ -1,0 +1,19 @@
+{
+  "header": {
+    "title": "Turn Your Idea Into a Project",
+    "subtitle": "An intelligent platform to convert your ideas into professional business plans"
+  },
+  "form": {
+    "placeholder": "Write your project idea here...",
+    "submit": "Create Business Plan",
+    "loading": "Processing..."
+  },
+  "results": {
+    "brandName": "Brand Name",
+    "businessPlan": "Business Plan",
+    "targetAudience": "Target Audience",
+    "services": "Services",
+    "marketing": "Marketing Ideas",
+    "costs": "Cost Estimation"
+  }
+}
