@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  idea-to-project:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=development
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - NEXT_PUBLIC_API_URL=http://localhost:3000/api
+    volumes:
+      - .:/app
+      - /app/node_modules
+    restart: unless-stopped
